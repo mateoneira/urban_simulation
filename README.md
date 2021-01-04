@@ -26,4 +26,4 @@ To set up your python environment to run the code in this repository, follow the
     ```
 5. Before running code in a notebook, change the kernel to match the `urbsim` environment by using the drop-down `Kernel` menu. 
 
-![Kernel][kernel.png]
+![Kernel](kernel.png)
