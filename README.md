@@ -6,7 +6,7 @@ This repository contains material related to CASA's Urban Simulation module.
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
-1. Download and install (anaconda)[https://www.anaconda.com/]
+1. Download and install [anaconda](https://www.anaconda.com/)
 2. Install Jupyter Notebook
     ```bash
     conda install -c conda-forge notebook
