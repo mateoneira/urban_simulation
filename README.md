@@ -20,12 +20,11 @@ To set up your python environment to run the code in this repository, follow the
     - __Windows__: 
     ```bash
     conda create --name urbsim --file=environment.yml
-    activate urbsim
     ```
 4. Create a [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `urbsim` environment.  
     ```bash
     python -m ipykernel install --user --name urbsim --display-name "urbsim"
     ```
-5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+5. Before running code in a notebook, change the kernel to match the `urbsim` environment by using the drop-down `Kernel` menu. 
 
-![Kernel][image2]
+![Kernel][kernel.jpg]
