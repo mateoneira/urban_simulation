@@ -11,11 +11,10 @@ To set up your python environment to run the code in this repository, follow the
     ```bash
     conda install -c conda-forge notebook
     ```
-3. Create (and activate) a new environment with python 3.6
+3. Create a new environment with python 3.6
     - __Linux__ or __Mac__: 
     ```bash
     conda create --name urbsim --file=environment.yml
-    source activate urbsim
     ```
     - __Windows__: 
     ```bash
