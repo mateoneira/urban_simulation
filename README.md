@@ -12,13 +12,8 @@ To set up your python environment to run the code in this repository, follow the
     conda install -c conda-forge notebook
     ```
 3. Create a new environment with python 3.6
-    - __Linux__ or __Mac__: 
     ```bash
-    conda create --name urbsim --file=environment.yml
-    ```
-    - __Windows__: 
-    ```bash
-    conda create --name urbsim --file=environment.yml
+    conda env create -f environment.yml 
     ```
 4. Create a [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `urbsim` environment.  
     ```bash
