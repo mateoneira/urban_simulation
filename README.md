@@ -39,12 +39,10 @@ To set up your python environment to run the code in this repository, follow the
 9. deactivate environment
     - __Linux__ or __Mac__: 
     ```bash
-    conda env create -f environment.yml 
     source deactivate urbsim
     ```
     - __Windows__: 
     ```bash
-    conda env create -f environment.yml 
     deactivate urbsim
     ```
 10. Launch jupyter notebook
