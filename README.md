@@ -8,13 +8,9 @@ To set up your python environment to run the code in this repository, follow the
 
 1. Download and install [anaconda](https://www.anaconda.com/)
 2. Open command prompt (or terminal if on Mac) 
-3. Install Jupyter Notebook
+3. Install Jupyter Notebook if not already installed
     ```bash
     conda install -c conda-forge notebook
-    ```
-4. If you already have jupyter notebook installed please make sure you are running latest version. 
-    ```bash
-    conda upgrade -c conda-forge notebook
     ```
 5. Download and save the environment.yml from this repository into a local folder. 
 6. From command prompt (or terminal) navigate to the directory where you saved environment.yml file: example bellow
@@ -35,15 +31,6 @@ To set up your python environment to run the code in this repository, follow the
 8. Create a [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `urbsim` environment.  
     ```bash
     python -m ipykernel install --user --name urbsim --display-name "urbsim"
-    ```
-9. deactivate environment
-    - __Linux__ or __Mac__: 
-    ```bash
-    source deactivate urbsim
-    ```
-    - __Windows__: 
-    ```bash
-    deactivate urbsim
     ```
 10. Launch jupyter notebook
     ```bash
