@@ -1,0 +1,10 @@
+name: urbsim
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - osmnx=1.0.0
+  - seaborn=0.11.1
+  - ipykernel=5.4.2
+  - python=3.7.9
+prefix: C:\Users\malvarez\AppData\Local\Continuum\miniconda3\envs\urbsim

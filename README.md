@@ -20,7 +20,7 @@ To set up your python environment to run the code in this repository, follow the
 7. Create a new environment using the environment.yml file and activate the environment.
     - __Linux__ or __Mac__: 
     ```bash
-    conda env create -f environment.yml 
+    conda env create -f environment_mac.yml 
     source activate urbsim
     ```
     - __Windows__: 
