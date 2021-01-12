@@ -4,18 +4,18 @@ This repository contains material related to CASA's Urban Simulation module.
 
 ### Dependencies 
 
-To set up your python environment to run the code in this repository, follow the instructions below.
+To set up your python environment and run the code in the practicals, follow the instructions below.
 
-1. Download and install [anaconda](https://www.anaconda.com/)
-2. Open command prompt (or terminal if on Mac) 
-3. Install Jupyter Notebook if not already installed
-    ```bash
-    conda install -c conda-forge notebook
-    ```
-5. Download and save the environment.yml from this repository into a local folder. 
-6. From command prompt (or terminal) navigate to the directory where you saved environment.yml file: example bellow
+1. Download and install [anaconda](https://docs.anaconda.com/anaconda/install/)
+2. Download and unzip the material from Friday practical sessions week 1.
+3. Open command prompt (or terminal if on Mac).
+4. In the command prompt (or terminal) navigate to the directory where you unzipped the file. This folder contains an environment.yml file: example bellow
     ```bash
     cd C:\Users\username\git\urban_simulation
+    ```
+5. Install Jupyter Notebook if not already installed
+    ```bash
+    conda install -c conda-forge notebook
     ```
 7. Create a new environment using the environment.yml file and activate the environment.
     - __Linux__ or __Mac__: 
