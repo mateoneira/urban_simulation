@@ -17,7 +17,7 @@ To set up your python environment to run the code in this repository, follow the
     ```bash
     cd C:\Users\username\git\urban_simulation
     ```
-7. Create a new environment using the environment.yml file and activate environment.
+7. Create a new environment using the environment.yml file and activate the environment.
     - __Linux__ or __Mac__: 
     ```bash
     conda env create -f environment.yml 
